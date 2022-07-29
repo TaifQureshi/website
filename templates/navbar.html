@@ -1,0 +1,39 @@
+{% load static %}
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/">
+        <img src="{% static 'images/logo.svg' %}" class="logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"><img src="{% static 'images/icons/menu.png' %}" class="icon_dropdown"></span></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link hover_image" href="{% url 'home' %}">
+              <img src="{% static 'images/icons/home/home.png' %}" alt="home" class="icon">
+              <img src="{% static 'images/icons/home/home_active.png' %}" alt="home" class="icon">
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link hover_image" href="#about">
+              <img src="{% static 'images/icons/about/about.png' %}" alt="about" class="icon">
+              <img src="{% static 'images/icons/about/about_active.png' %}" alt="about" class="icon">
+            </a>
+          </li>
+           <li class="nav-item">
+             <a class="nav-link hover_image" href="#service">
+              <img src="{% static 'images/icons/service/service.png' %}" alt="service" class="icon">
+              <img src="{% static 'images/icons/service/service_active.png' %}" alt="service" class="icon">
+            </a>
+          </li>
+           <li class="nav-item">
+             <a class="nav-link hover_image" href="#skills">
+              <img src="{% static 'images/icons/skill/skill.png' %}" alt="skill" class="icon">
+              <img src="{% static 'images/icons/skill/skill_active.png' %}" alt="skill" class="icon">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>

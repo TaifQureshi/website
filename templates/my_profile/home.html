@@ -1,0 +1,224 @@
+{% extends 'index.html' %}
+{% load static %}
+{% block content %}
+<link rel="stylesheet" type="text/css" href="{% static '/css/my_profile/main.css' %}">
+<div class="row section-top" id='home'>
+	<div class="col">
+		<div class="row greating">
+			<h3 class="shadow-text">Hi, my name is</h3>
+		</div>
+		<div class="row name">
+			<h1 class="shadow-text"><strong>Taif<br>Qureshi</strong></h1>
+		</div>
+		<div class="row contact">
+			<div class="row">
+				<div class="col-2">
+					<a class="hover_image">
+						<img src="{% static '/images/icons/email/mail.png' %}" class="icon position-absolute">
+						<img src="{% static '/images/icons/email/mail_active.png' %}" class="icon position-absolute">
+					</a>
+				</div>
+				<div class="col-2">
+					<h3 class="shadow-text">
+						mohdtaifqureshi@gmail.com
+					</h3>
+				</div>
+				<div class="col"></div>
+			</div>
+			<div class="row">
+				<div class="col-2">
+					<a class="hover_image">
+						<img src="{% static '/images/icons/phone/phone.png' %}" class="icon">
+						<img src="{% static '/images/icons/phone/phone_active.png' %}" class="icon">
+					</a>
+				</div>
+				<div class="col">
+					<h4 class="shadow-text">
+						+91 9819423955
+					</h4>
+				</div>
+				<div class="col"></div>
+			</div>
+		</div>
+	</div>
+	<div class="col">
+		<img class="profile_pic" src="{% static 'images/profile_pic.png' %}">
+	</div>
+</div>
+
+<div class="row section" id='about'>
+	<div class="row">
+		<h1 class="shadow-text"><strong>About me.</strong></h1>
+	</div>
+	<div class="row short_about">
+		<h2 class="shadow-text">
+			I am an enthusiastic developer based in India, with a experience in website & product design.
+		</h2>
+	</div>
+	<div class="row short_about_2">
+		<div class="col-6">
+			<h2 class="shadow-text" style='color: white;'>
+				I design professional & beautiful websites
+			</h2>
+		</div>
+		<div class="col">
+			<p>
+				I have mastered the skills of understanding client requirements according to the latest trends. I have worked with businesses from different niches so you can rely on me for yours.
+Having worked on various projects , I can help you with the best possible suggestions and ideas that we can proceed with. With me, you aren’t forced to accept anything. I give you a variety of options we can work on together.
+I know that I am consider as a fresher but I confident that I will compleate the work with all the requirements.
+			</p>
+		</div>
+	</div>
+</div>
+
+<div class="row section" id='service'>
+	<div class="row">
+		<h1 class="shadow-text">
+			<strong>What I do.</strong>
+		</h1>
+	</div>
+	<div class="row short_about">
+		<h2 class="shadow-text">
+			From understanding your requirements, designing a blueprint and delivering the final product, I do everything that falls in between these lines.
+		</h2>
+	</div>
+	<div class="row short_about_2">
+		<div class="col">
+			<div class="card">
+				<div class="card-header shadow-text"><image class='icon' src="{% static '/images/icons/laptop.png' %}"><strong>Web Developer</strong></div>
+				<div class="card-body">
+					<p class="card-text">
+						If you are looking for a developer who’ll take over the research and development of your website, I am a well-established professional to help you with this.
+					</p>
+			</div>
+			</div>
+		</div>
+		<div class="col-1"></div>
+		<div class="col">
+			<div class="card">
+				<div class="card-header shadow-text"><image class='icon' src="{% static '/images/icons/code.png' %}"><strong>Software Developer</strong></div>
+				<div class="card-body">
+					<p class="card-text">
+						If you are looking for developing customize software for you business.  I am a well-established professional to help you with this.
+					</p>
+			</div>
+			</div>
+		</div>
+		<div class="col-1"></div>
+		<div class="col">
+			<div class="card">
+				<div class="card-header shadow-text"><image class='icon' src="{% static '/images/icons/mobile.png' %}"><strong>App Developer</strong></div>
+				<div class="card-body">
+					<p class="card-text">
+						If you are looking for a user-friendly app that will attract more mobile users, I can help you design and build a platform with the latest and trendiest look and feel.
+					</p>
+			</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="row section" id='skills'>
+	<div class="col">
+		<div class="row">
+			<h1 class="shadow-text"><strong>Skills</strong></h1>
+		</div>
+		<div class="row" style="min-height: 60%;">
+			<div class="row skill">
+				<div class="row">
+					<h2 class="shadow-text">Python</h2>
+				</div>
+				<div class="row">
+					<div class="progress">
+						<div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
+					</div>
+				</div>
+			</div>
+			<div class="row skill">
+				<div class="row">
+					<h2 class="shadow-text">C++</h2>
+				</div>
+				<div class="row">
+					<div class="progress">
+						<div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+					</div>
+				</div>
+			</div>
+			<div class="row skill">
+				<div class="row">
+					<h2 class="shadow-text">Java</h2>
+				</div>
+				<div class="row">
+					<div class="progress">
+						<div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+					</div>
+				</div>
+			</div>
+			<div class="row skill">
+				<div class="row">
+					<h2 class="shadow-text">AI / ML</h2>
+				</div>
+				<div class="row">
+					<div class="progress">
+						<div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="col-1"></div>
+	<div class="col">
+		<div class="row">
+			<h1 class="shadow-text">
+				<strong>Experience</strong>
+			</h1>
+		</div>
+		<div class="row">
+			
+			<div class="row experience">
+				<div class="exp_row row">
+					<div class="col-md-4">
+						<div class="row">
+							<img src="{% static '/images/icons/case.png' %}" class="icon_exp">
+						</div>
+						<div class="row">
+							<p>Ahool Capital<br>
+								<strong>2021-Present</strong>
+							</p>
+						</div>
+					</div>
+					<div class="col-md-8">
+						<div class="row"><h2><strong>Software Developer</strong></h2></div>
+						<hr>
+						<div class="row">
+							<p>I am a part of an amazing design team and worked together with them to help design and develop apps for different clients of the company to deploy algo based trading bots.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="row experience">
+				<div class="exp_row row">
+					<div class="col-md-4">
+						<div class="row">
+							<img src="{% static '/images/icons/case.png' %}" class="icon_exp">
+						</div>
+						<div class="row">
+							<p>iSoft Ms<br>
+								<strong>2020-2021</strong>
+							</p>
+						</div>
+					</div>
+					<div class="col-md-8">
+						<div class="row"><h2><strong>Software Developer</strong></h2></div>
+						<hr>
+						<div class="row">
+							<p>I was responsible for designing and developing web-base user intractive trading algorithums in various markets</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+{% endblock %}
